@@ -3,7 +3,7 @@ import * as SecureStore from 'expo-secure-store';
 import { Platform } from 'react-native';
 
 // Live Production / Cloud API URL (accessible by physical Android phones anywhere)
-export const CLOUD_API_URL = 'https://valued-lang-michel-satisfied.trycloudflare.com/api/v1';
+export const CLOUD_API_URL = 'https://school-manegement-system-and-student-app.onrender.com/api/v1';
 export const LOCAL_API_URL = Platform.OS === 'android' ? 'http://10.0.2.2:5001/api/v1' : 'http://localhost:5001/api/v1';
 
 const instance = axios.create({
