@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Environment Variables
+.env
+.env.*
+*/.env
+*/.env.*
+
+# OS and Editor files
+.DS_Store
+*/.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Android build outputs & caches
+*/android/.gradle/
+*/android/app/build/
+*/android/build/
+*/android/.cxx/
+
+# Expo / React Native
+.expo/
+*/.expo/
+*.log

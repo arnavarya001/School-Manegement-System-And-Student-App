@@ -1,0 +1,15 @@
+{
+  "name": "st-michel-sms",
+  "version": "1.0.0",
+  "description": "St. Michel School Management System Root",
+  "scripts": {
+    "install-all": "npm install && cd school-backend && npm install && cd ../school-manager-mobile && npm install && cd ../parent-student-mobile && npm install",
+    "dev": "concurrently \"npm run backend\" \"npm run manager\" \"npm run parent\"",
+    "backend": "cd school-backend && npm start",
+    "manager": "cd school-manager-mobile && npx expo start --android",
+    "parent": "cd parent-student-mobile && npx expo start --android"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
